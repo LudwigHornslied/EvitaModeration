@@ -1,0 +1,26 @@
+main: com.tistory.hornslied.evitaonline.mod.EvitaModerationMain
+name: EvitaModeration
+version: 1.0
+author: Ludwig Hornslied
+depend: [EvitaCore]
+commands:
+  report:
+    aliases: [신고]
+  freeze:
+    aliases: [ss, 프리즈]
+  ban:
+    aliases: [밴]
+  ban-ip:
+    aliases: [banip, 아이피밴]
+  banlist:
+    aliases: [밴목록, 밴리스트]
+  unban:
+    aliases: [밴해제]
+  unban-ip:
+    aliases: [unbanip, 아이피밴해제]
+  warn:
+    aliases: [경고]
+  mute:
+    aliases: [뮤트, 채팅금지]
+  unmute:
+    aliases: [뮤트해제, 채팅금지해제]
